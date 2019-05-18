@@ -1,0 +1,72 @@
+body{
+    background-image: url(../img/borderlands.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 10px 10 px;
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav    .nav-item{
+    flex: 1;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav    .nav-item:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+header{
+    margin: 120px auto auto auto    ;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main{
+    max-width: 600px;
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.content{
+    flex: 2;
+
+}
+
+.image{
+    flex: 1;
+    display: flex;
+}
+.image img{
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid orange;
+    transition: 0.7s;
+}
+
+.image img:hover{
+    transform: rotate(180deg);
+}
