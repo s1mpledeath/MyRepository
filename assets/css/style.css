@@ -19,7 +19,7 @@ body{
 
 .nav    .nav-item{
     flex: 1;
-    color: yellow;
+    color: orange;
     text-align: center;
     text-decoration: none;
     padding: 10px 15px;
@@ -63,7 +63,7 @@ main{
     width: 180px;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid orange;
+    border: 2px solid orangered;
     transition: 0.7s;
 }
 
